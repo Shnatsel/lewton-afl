@@ -1,0 +1,8 @@
+[package]
+name = "lewton-afl"
+version = "0.1.0"
+authors = ["Sergey \"Shnatsel\" Davidoff <shnatsel@gmail.com>"]
+
+[dependencies]
+afl = "0.4"
+lewton = { path = "../lewton" }
